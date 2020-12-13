@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<dataDiri>
+    <nama>
+        <awal>M.</awal>
+        <akhir>Afif Hibatullah</akhir>
+    </nama>
+    
+    <jeniskelamin>Laki-laki</jeniskelamin>
+
+    <alamat>
+        <Kota>Bandar Lampung</Kota>
+        <provinsi>Lampung</provinsi>
+        <negara>Indonesia</negara>
+    </alamat>
+
+    <sosialMedia>
+        <github>afifhibatullah</github>
+        <instagram>afifhibatullah</instagram>
+    </sosialMedia>
+</dataDiri>

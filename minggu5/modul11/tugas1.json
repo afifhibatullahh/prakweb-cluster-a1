@@ -1,0 +1,16 @@
+{
+    "nama": {
+        "awal": "M.",
+        "akhir": "Afif Hibatullah"
+    },
+    "jeniskelamin": "Laki-laki",
+    "alamat": {
+        "Kota": "Bandar Lampung",
+        "provinsi": "Lampung",
+        "negara": "Indonesia"
+    },
+    "sosialMedia": {
+        "github": "afifhibatullah",
+        "instagram": "afifhibatullah"
+    }
+}
