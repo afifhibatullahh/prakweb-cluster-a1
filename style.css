@@ -1,0 +1,154 @@
+ * {
+  margin: 0px;
+  padding: 0;
+  color: white;
+}
+ body {
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/spikes.png);
+}
+
+        h1 {
+            position: absolute;
+            margin: 0;
+            line-height: 55px;
+            font-size: 30px;
+            color: #fff;
+            z-index: 2;
+        }
+
+        .testbox {
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 800px;
+  margin: auto;
+  background-color: white;
+  padding: 0 30px;
+        }
+
+        form {
+            width: 800px;
+            padding: 0 30px;
+            border-radius: 6px;
+            background-color: rgba(1, 4, 28, 0.8);
+            box-shadow: 0 0 30px 0 white;
+        }
+
+        .table {
+            width: 43%;
+            border-radius: 6px;
+            background: rgba(0, 0, 0, 0.0);
+            box-shadow: 0 0 30px 0 white;
+            border: "1";
+        }
+
+        th {
+            background-color: rgba(0, 9, 66, 0.5);
+            color: white;
+        }
+
+        .td-number {
+            background-color: rgba(0, 9, 66, 0.5);
+            color: white;
+            text-align: center;
+        }
+
+        .td-data {
+            background-color: rgba(1, 4, 28, 0.8);
+            color: white;
+            text-align: center;
+        }
+
+        .td-foto {
+            height: 80px;
+            width: 80px;
+            text-align: center;
+            object-fit: cover;
+        }
+
+        .banner {
+            position: relative;
+            height: 80px;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+                 -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 800px;
+  margin: auto;
+  
+  padding: 0 30px;
+        }
+
+        .banner::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        input,
+        select {
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input {
+            width: calc(100% - 20px);
+            padding: 5px;
+        }
+
+        select {
+            width: 100%;
+            padding: 7px 0;
+            background: transparent;
+        }
+
+        .item {
+            position: relative;
+            margin: 10px 0;
+
+        }
+
+        .btn-block {
+            text-align: center;
+        }
+
+        button {
+            width: 150px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background: white;
+            font-size: 16px;
+            color: #000;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+
+        .nama-bet {
+            font-size: 25pt;
+            padding: 10px 10px 20px 20px;
+        }
+
+        @media (min-width: 568px) {
+
+            .name-item,
+            .city-item {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+
+            .name-item input,
+            .city-item input {
+                width: calc(50% - 20px);
+            }
+
+            .city-item select {
+                width: calc(50% - 8px);
+            }
+        }
